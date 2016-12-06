@@ -1,3 +1,76 @@
+/*color: #585C5F;*/
+
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body{
+  background-color: #EDEFEC;
+  font-family: 'Nunito', sans-serif;
+}
+
 h1 {
   color: salmon;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+#firstsection, #scdsection {
+  margin:auto;
+  width: 55%
+}
+
+
+.firstintro, .scdintro{
+  color: #585C5F;
+  text-align:center;
+}
+
+.firstintro p, .scdintro p {
+  font-size: 12px;
+}
+
+.firstphotos, .scdphotos {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.SF-image, .NY-image, .LDN-image, .NAPA-image, .SFii-image, .SNM-image {
+  position: relative;
+  width: 210px;
+  height: 230px;
+  overflow: hidden;
+  margin: 10px;
+}
+
+.SF-image img, .NY-image img, .LDN-image img, .NAPA-image img, .SFii-image img, .SNM-image img {
+  width: 360px;
+  height: 240px;
+  margin: -10px -140px 0 -80px;
+}
+
+.SF-caption, .NY-caption, .LDN-caption, .NAPA-caption, .SFii-caption, .SNM-caption {
+  /*position: absolute;
+  line-height:30px;
+  top: 240px;
+  width: 100%;*/
+  color:white;
+  font-size: 20px;
+  text-align:center;
+}
+
+.buttonOne, .buttonTwo {
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  color: #585C5F;
+  padding: 40px 40px;
+  margin: 40px 10px;
+  text-decoration: none;
+  width: 210px;
+  text-align:center;
 }
